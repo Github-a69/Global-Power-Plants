@@ -2,6 +2,6 @@ pandas
 plotly
 numpy
 scikit-learn
-categry-encoders
+category-encoders
 streamlit
 joblib
