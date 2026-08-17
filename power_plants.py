@@ -30,7 +30,7 @@ page=st.sidebar.radio('select page',['Overview','Analysis','Prediction'])
 
 if page == 'Overview':
     st.image('https://images.unsplash.com/photo-1578776349090-de61da00ff1a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG93ZXIlMjBwbGFudHxlbnwwfHwwfHx8MA%3D%3D')
-    st.dataframe(df.head(10))
+    st.dataframe(df)
 
     # explaining features meaning
     cols = {'country' :'the country where the power station is located',
