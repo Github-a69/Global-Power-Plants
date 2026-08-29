@@ -2,3 +2,6 @@
 This project studies power plants for 3 renewable energy resources (hydro , solar , wind) with respect to their capacity and energy generation  in 148 countries worldwide.
 The dataset is taken from World Resource Institute. 
 This is a supervised regression ML Problem, we try to estimate energy generation in gigawatts.
+
+Key Questions : Is there a strong correlation between Plant capacity and generated energy ?
+Which energy resource ( solar , wind , hydro )  has most most capacity and generated electricity on average ?
