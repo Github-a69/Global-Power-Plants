@@ -29,7 +29,7 @@ knn = joblib.load('knn.pkl')
 page=st.sidebar.radio('select page',['Overview','Analysis','Prediction'])
 
 if page == 'Overview':
-    st.image('https://images.unsplash.com/photo-1578776349090-de61da00ff1a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG93ZXIlMjBwbGFudHxlbnwwfHwwfHx8MA%3D%3D')
+    st.image('https://images.unsplash.com/photo-1578776349090-de61da00ff1a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG93ZXIlMjBwbGFudHxlbnwwfHwwfHx8MA%3D%3D',use_container_width=True)
     st.dataframe(df)
 
     # explaining features meaning
@@ -129,7 +129,7 @@ elif page == 'Analysis' :
 # prediction page
 
 else:
-    st.image("https://plus.unsplash.com/premium_photo-1661898205432-d648667b9c76?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG93ZXIlMjBwbGFudHxlbnwwfHwwfHx8MA%3D%3D")
+    st.image("https://plus.unsplash.com/premium_photo-1661898205432-d648667b9c76?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG93ZXIlMjBwbGFudHxlbnwwfHwwfHx8MA%3D%3D",use_container_width=True)
 
 
 
