@@ -41,7 +41,7 @@ if page == 'Overview':
 
     for col, meaning in cols.items():
         with st.sidebar.expander(col):
-            st.write(meaning)
+            st.success(meaning)
 
 # analysis and visualization page
 
